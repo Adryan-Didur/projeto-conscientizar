@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1: #929FB3;
+    --cor2: #586C89;
+    --cor3: #B6C6DE;
+    --cor4: #2F4361;
+    --cor5: #101E34;
+    --cor6: #001433;
+
+    --fonte1: "Sen", sans-serif;
+}
+body{
+    background-color: var(--cor2);
+}
+header{
+    font-size: 25px;
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor6));
+    font-family: var(--fonte1);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: white;
+}
+header p{
+    padding-top: 10px;
+}
+nav{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--cor6);
+}
+nav a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-inline: 20px;
+    font-family: var(--fonte1);
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    transition-duration: .5s;
+    border-radius: 10px;
+    background-color: var(--cor1);
+    color: var(--cor6);
+}
+main{
+    text-align: justify;
+    box-shadow: 0px 10px 10px;
+    background-color: var(--cor3);
+    padding: 30px;
+    max-width: 800px;
+    min-width: 350px;
+    margin: auto;
+    line-height: 1.8em;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main h1, h2{
+    text-align: left;
+    font-family: var(--fonte1);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+main p{
+    padding-bottom: 20px;
+}
+main a{
+    text-decoration: none;
+    color: var(--cor3);
+    background-color: var(--cor5);
+    padding: 5px;
+    border-radius: 3px;
+}
+main a:hover{
+    text-decoration: underline;
+}
+main ol{
+    padding-inline: 30px;
+}
+main li{
+    padding-bottom: 20px;
+}
+main section.img{
+    padding-bottom: 20px;
+}
+main img#embrace-diferences{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.452);
+}
+main img#amor{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.452);
+}
